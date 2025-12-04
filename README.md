@@ -125,17 +125,22 @@ Pada aplikasi, jika belum login maka otomatis diarahkan ke halaman login.
 1. Buka Browser http://localhost/lab9_php_modular/index.php?page=login&msg=loggedout
 ### 📸 Tangkapan Layar (Screenshot)
 ✨ Login Page
-GANBAR
+![foto](https://github.com/dirarohmaeni/Lab9Web/blob/fc3472c4e01d88b22a81361c340c66919b33c987/lab9/login.png)
 
 ✨ Dashboard
+![foto](https://github.com/dirarohmaeni/Lab9Web/blob/fc3472c4e01d88b22a81361c340c66919b33c987/lab9/dashboard.png)
 
 ✨ List Data Barang
+![foto](https://github.com/dirarohmaeni/Lab9Web/blob/fc3472c4e01d88b22a81361c340c66919b33c987/lab9/list.png)
 
 ✨ Form Tambah Barang
+![foto](https://github.com/dirarohmaeni/Lab9Web/blob/fc3472c4e01d88b22a81361c340c66919b33c987/lab9/tambah.png)
 
 ✨ Form Edit Barang
+![foto](https://github.com/dirarohmaeni/Lab9Web/blob/fc3472c4e01d88b22a81361c340c66919b33c987/lab9/ubah.png)
 
 ✨ Form Hapus Barang
+![foto](https://github.com/dirarohmaeni/Lab9Web/blob/fc3472c4e01d88b22a81361c340c66919b33c987/lab9/hapus.png)
 
 
 ## 🧩 Routing Sistem
