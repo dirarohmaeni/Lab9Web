@@ -1,0 +1,180 @@
+/* --------------------------------------------------
+   GLOBAL DASHBOARD WRAPPER
+-------------------------------------------------- */
+.dashboard-wrapper {
+    background: #ffffff;
+    padding: 28px;
+    border-radius: 14px;
+    box-shadow: 0 12px 40px rgba(22, 100, 40, 0.06);
+}
+
+/* --------------------------------------------------
+   MENU CARD GRID
+-------------------------------------------------- */
+.menu-box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 28px;
+}
+
+.menu-card {
+    background: #f3fff6;
+    border-radius: 14px;
+    padding: 20px;
+    text-decoration: none;
+    color: #155724;
+    border: 1px solid #d9f3df;
+    box-shadow: 0 10px 25px rgba(22, 100, 40, 0.05);
+    transition: .22s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-6px);
+    background: #e4f9eb;
+}
+
+/* Special Logout Card */
+.menu-card.logout {
+    background: #fff2f2;
+    border-color: #ffcccc;
+    color: #9e1b1b;
+}
+.menu-card.logout:hover {
+    background: #ffe3e3;
+}
+
+/* --------------------------------------------------
+   STATISTICS CARDS
+-------------------------------------------------- */
+.stat-box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-bottom: 28px;
+}
+
+.stat-card {
+    background: linear-gradient(180deg, #f7fff7, #ecfff0);
+    border: 1px solid #d8f3df;
+    padding: 26px;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(22, 100, 40, 0.05);
+    transition: .2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-number {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1f7a2f;
+}
+
+.stat-label {
+    font-size: 15px;
+    color: #487a52;
+}
+
+/* --------------------------------------------------
+   TABLE (Data Barang)
+-------------------------------------------------- */
+.table-dashboard {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(22, 100, 40, 0.05);
+}
+
+.table-dashboard th {
+    background: #e6f9ea;
+    color: #14521f;
+    padding: 12px;
+    font-weight: 600;
+}
+
+.table-dashboard td {
+    padding: 12px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.table-dashboard tr:hover {
+    background: #f3fff6;
+}
+
+/* --------------------------------------------------
+   BUTTONS
+-------------------------------------------------- */
+.btn {
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    transition: .2s;
+}
+
+/* Edit Button */
+.btn-edit {
+    background: #1f7aed;
+    color: #fff;
+}
+.btn-edit:hover {
+    background: #165eca;
+}
+
+/* Delete Button */
+.btn-delete {
+    background: #d73939;
+    color: #fff;
+}
+.btn-delete:hover {
+    background: #b42323;
+}
+
+/* Green Action Button */
+.btn-green {
+    background: #28a745;
+    color: #fff;
+}
+.btn-green:hover {
+    background: #1e7e34;
+}
+
+/* Dark Green Button (Back / Cancel) */
+.btn-green-dark {
+    background: #155c2d;
+    border: 1px solid #0f4a24;
+    color: #ce432e;
+}
+.btn-green-dark:hover {
+    background: #0f4a24;
+}
+
+/* Remove underline on hover links */
+a.text-decoration-none:hover {
+    text-decoration: none !important;
+}
+
+/* --------------------------------------------------
+   IMAGE IN TABLE
+-------------------------------------------------- */
+.table-dashboard img {
+    width: 70px;
+    border-radius: 10px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+}
+
+/* --------------------------------------------------
+   Responsive improvements
+-------------------------------------------------- */
+@media (max-width: 600px) {
+    .dashboard-wrapper { padding: 18px; }
+    .menu-box-container,
+    .stat-box-container { grid-template-columns: 1fr; }
+}
